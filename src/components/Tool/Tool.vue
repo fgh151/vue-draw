@@ -1,5 +1,5 @@
 <template>
-  <div class="tool" >
+  <div class="tool col-xs-1" >
     <div @click="event" v-if="!labelForUploadImage">
       <i :class="iconClass"></i>
     </div>

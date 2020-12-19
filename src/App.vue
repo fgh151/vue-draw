@@ -1,8 +1,8 @@
 <template>
   <div id="app" class="main">
     <div class="editor-container">
-      <div class="editor">
-        <div class="current-color" :style="{ backgroundColor: color }"></div>
+      <div class="editor row">
+        <div class="current-color col-xs-1" :style="{ backgroundColor: color }"></div>
 
         <Tool :event="() => undo()" :iconClass="'fas fa-undo-alt fa-lg'" />
 
